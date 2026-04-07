@@ -1,0 +1,32 @@
+.buttons {
+    display:grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+    margin: 20px;
+    justify-content: center;
+    
+}
+#display {
+    width: 270px;      /* match button grid width */
+    padding: 50px;     /* internal spacing */
+    margin: 20px auto; /* center horizontally */
+    font-size: 24px;   /* make numbers readable */
+    text-align: right; /* like a real calculator */
+    border-radius: 8px;
+    border: 2px solid #ccc;
+
+}
+.main-container{
+    width:300px;
+    
+}
+.buttons button {
+    background-color: coral;
+}
+body {
+    display:flex;
+    justify-content: center; /*horizontal center */
+    align-items: center; /*verical center */
+    height:100vh;
+    margin:0;
+}
